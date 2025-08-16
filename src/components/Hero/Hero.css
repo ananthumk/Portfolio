@@ -1,0 +1,29 @@
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btns button{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+}
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.up-down-animation {
+  animation: upDown 2s ease-in-out infinite;
+}
