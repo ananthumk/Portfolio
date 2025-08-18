@@ -80,10 +80,10 @@ export const Contact = () => {
                 </div>
                 <h3 className="text-xl md:text-2xl p-2 font-semibold">Follow Me</h3>
                 <div className="flex items-center gap-4 p-1">
-                    <a href={linkedlnLink} target='_blank'><button className="group overflow-hidden  cursor-pointer hover:scale-y-105 bg-neutral-300/10 rounded-xl p-2 md:p-3">
+                    <a href={linkedlnLink} target='_blank' className='p-1'><button className="group cursor-pointer hover:scale-y-105 bg-neutral-300/10 rounded-xl p-2 md:p-3">
                        <FaLinkedinIn size={24} className='text-white transition-transform duration-300 group-hover:scale-y-105' />
                     </button></a>
-                    <a href={githubLink} target='_blank'><button className="group overflow-hidden cursor-pointer hover:scale-y-105 bg-neutral-300/10 rounded-xl p-2 md:p-3">
+                    <a href={githubLink} target='_blank' className='p-1'><button className="group overflow-hidden cursor-pointer hover:scale-y-105 bg-neutral-300/10 rounded-xl p-2 md:p-3">
                        <FiGithub size={24} className='text-white  transition-transform duration-300 group-hover:scale-y-105' />
                     </button></a>
                 </div>

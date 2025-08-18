@@ -165,7 +165,7 @@ export const Projects = () => {
                 </div>
             </div>
              
-            <a href={GithubLink}><button className="group bg-transparent border-2 border-neutral-500 mx-auto py-2 px-4 flex items-center justify-center mt-10 gap-4 text-md 
+            <a href={GithubLink} target='_blank'><button className="group bg-transparent border-2 border-neutral-500 mx-auto py-2 px-4 flex items-center justify-center mt-10 gap-4 text-md 
             font-medium rounded-md hover:bg-gray-300/10 cursor-pointer">
                 <span className="transition-transform duration-300 group-hover:scale-125"><FaGithub size={22} /></span>
                 View All Projects in Github
